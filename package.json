@@ -6,7 +6,7 @@
     "templateInfo": {
         "name": "vue3-NutUI",
         "typescript": true,
-        "css": "sass"
+        "css": "scss"
     },
     "scripts": {
         "build:weapp": "taro build --type weapp",
@@ -25,7 +25,7 @@
         "dev:rn": "npm run build:rn -- --watch",
         "dev:qq": "npm run build:qq -- --watch",
         "dev:quickapp": "npm run build:quickapp -- --watch",
-        "prettier": "prettier --config prettier.config.js --write ."
+        "prettier": "prettier --config prettier.config.js --write . !./dist/**"
     },
     "browserslist": [
         "last 3 versions",
