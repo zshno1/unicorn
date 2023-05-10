@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
-import { Cell,CellGroup, Form, FormItem ,Input, TextArea, Icon, Button,Price } from '@nutui/nutui-taro';
-const nutuiComponents = [ Cell,CellGroup, Form, FormItem ,Input, TextArea, Icon, Button,Price ];
+import { Cell, CellGroup, Form, FormItem, Input, TextArea, Icon, Button, Price } from '@nutui/nutui-taro';
+const nutuiComponents = [Cell, CellGroup, Form, FormItem, Input, TextArea, Icon, Button, Price];
 import './app.scss';
 
 const App = createApp({

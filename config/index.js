@@ -1,3 +1,4 @@
+const path = require('path');
 const config = {
     projectName: 'nuicorn',
     date: '2023-5-5',
@@ -60,6 +61,10 @@ const config = {
                 },
             },
         },
+    },
+    alias: {
+        '@/components': path.resolve(__dirname, '..', 'src/components'),
+        '@/depends': path.resolve(__dirname, '..', 'src/depends'),
     },
 };
 

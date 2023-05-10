@@ -1,33 +1,33 @@
 {
-  "miniprogramRoot": "dist/",
-  "projectname": "nuicorn",
-  "description": "金融计算工具",
-  "appid": "wx35441a4fda36264d",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
+    "miniprogramRoot": "dist/",
+    "projectname": "nuicorn",
+    "description": "金融计算工具",
+    "appid": "wx35441a4fda36264d",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "condition": false,
+        "ignoreUploadUnusedFiles": true,
+        "minifyWXML": true,
+        "minifyWXSS": true
     },
-    "condition": false,
-    "ignoreUploadUnusedFiles": true,
-    "minifyWXML": true,
-    "minifyWXSS": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.31.0",
-  "srcMiniprogramRoot": "dist/",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
+    "compileType": "miniprogram",
+    "libVersion": "2.31.0",
+    "srcMiniprogramRoot": "dist/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 2
+    }
 }

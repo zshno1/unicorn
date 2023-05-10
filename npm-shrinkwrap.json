@@ -16,6 +16,7 @@
                 "@tarojs/plugin-html": "3.4.13",
                 "@tarojs/runtime": "3.4.13",
                 "@tarojs/taro": "3.4.13",
+                "echarts": "^5.4.2",
                 "vue": "^3.0.0"
             },
             "devDependencies": {
@@ -9128,6 +9129,22 @@
                 "jsbn": "~0.1.0",
                 "safer-buffer": "^2.1.0"
             }
+        },
+        "node_modules/echarts": {
+            "version": "5.4.2",
+            "resolved": "http://npm.17zuoye.net/echarts/-/echarts-5.4.2.tgz",
+            "integrity": "sha512-2W3vw3oI2tWJdyAz+b8DuWS0nfXtSDqlDmqgin/lfzbkB01cuMEN66KWBlmur3YMp5nEDEEt5s23pllnAzB4EA==",
+            "license": "Apache-2.0",
+            "dependencies": {
+                "tslib": "2.3.0",
+                "zrender": "5.4.3"
+            }
+        },
+        "node_modules/echarts/node_modules/tslib": {
+            "version": "2.3.0",
+            "resolved": "http://npm.17zuoye.net/tslib/-/tslib-2.3.0.tgz",
+            "integrity": "sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4=",
+            "license": "0BSD"
         },
         "node_modules/ee-first": {
             "version": "1.1.1",
@@ -21917,6 +21934,21 @@
             "funding": {
                 "url": "https://github.com/sponsors/sindresorhus"
             }
+        },
+        "node_modules/zrender": {
+            "version": "5.4.3",
+            "resolved": "http://npm.17zuoye.net/zrender/-/zrender-5.4.3.tgz",
+            "integrity": "sha512-DRUM4ZLnoaT0PBVvGBDO9oWIDBKFdAVieNWxWwK0niYzJCMwGchRk21/hsE+RKkIveH3XHCyvXcJDkgLVvfizQ==",
+            "license": "BSD-3-Clause",
+            "dependencies": {
+                "tslib": "2.3.0"
+            }
+        },
+        "node_modules/zrender/node_modules/tslib": {
+            "version": "2.3.0",
+            "resolved": "http://npm.17zuoye.net/tslib/-/tslib-2.3.0.tgz",
+            "integrity": "sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4=",
+            "license": "0BSD"
         }
     },
     "dependencies": {
@@ -28023,6 +28055,22 @@
             "requires": {
                 "jsbn": "~0.1.0",
                 "safer-buffer": "^2.1.0"
+            }
+        },
+        "echarts": {
+            "version": "5.4.2",
+            "resolved": "http://npm.17zuoye.net/echarts/-/echarts-5.4.2.tgz",
+            "integrity": "sha512-2W3vw3oI2tWJdyAz+b8DuWS0nfXtSDqlDmqgin/lfzbkB01cuMEN66KWBlmur3YMp5nEDEEt5s23pllnAzB4EA==",
+            "requires": {
+                "tslib": "2.3.0",
+                "zrender": "5.4.3"
+            },
+            "dependencies": {
+                "tslib": {
+                    "version": "2.3.0",
+                    "resolved": "http://npm.17zuoye.net/tslib/-/tslib-2.3.0.tgz",
+                    "integrity": "sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4="
+                }
             }
         },
         "ee-first": {
@@ -36579,6 +36627,21 @@
         "yocto-queue": {
             "version": "0.1.0",
             "dev": true
+        },
+        "zrender": {
+            "version": "5.4.3",
+            "resolved": "http://npm.17zuoye.net/zrender/-/zrender-5.4.3.tgz",
+            "integrity": "sha512-DRUM4ZLnoaT0PBVvGBDO9oWIDBKFdAVieNWxWwK0niYzJCMwGchRk21/hsE+RKkIveH3XHCyvXcJDkgLVvfizQ==",
+            "requires": {
+                "tslib": "2.3.0"
+            },
+            "dependencies": {
+                "tslib": {
+                    "version": "2.3.0",
+                    "resolved": "http://npm.17zuoye.net/tslib/-/tslib-2.3.0.tgz",
+                    "integrity": "sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4="
+                }
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ export default defineAppConfig({
             name: 'toolbox',
             root: 'packages/toolbox',
             independent: false,
-            pages: ['pages/annualInterest/annualInterest'],
+            pages: ['pages/annualInterest/annualInterest', 'pages/grid/grid'],
         },
     ],
     window: {
